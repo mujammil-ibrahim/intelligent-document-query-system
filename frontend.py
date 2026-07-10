@@ -5,7 +5,12 @@ import requests
 # Railway Backend URL
 # -------------------------------
 
-API_URL = "https://intelligent-document-query-system-production.up.railway.app"
+import os
+
+API_URL = os.getenv(
+    "API_URL",
+    "https://intelligent-document-query-system-production.up.railway.app"
+)
 
 # -------------------------------
 # Page Configuration
