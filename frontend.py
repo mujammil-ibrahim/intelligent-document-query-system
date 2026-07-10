@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "https://intelligent-document-query-system.onrender.com"
+API_URL = "https://intelligent-document-query-system-production.up.railway.app"
 
 st.set_page_config(
     page_title="Intelligent Document Query System",
